@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+
+html{
+    scroll-behavior: auto !important;
+}
+
+body {
+    /* para ver si está integrado el css */
+    /* display: none; */
+    font-family: 'Roboto';   
+    margin: 0px;
+    background: white; 
+    
+}
+
+.navbar{
+    top: 0;
+    position: fixed;
+   width: 100vw;
+   z-index: 1;
+   padding-left: 2.5%;
+   padding-right: 2.5%;
+   
+
+    
+}
+
+.container .row{
+   padding-top: 80px;
+  
+ }
+
+ .container .row .col{
+    
+    padding-bottom: 30px;
+ }
+
+
+ 
+.card-text{
+    font-family: "Roboto", light;
+    font-size: 20px;
+    font-weight: 300;
+
+}
+
+.card-text-2{
+    font-family: "Roboto", light;
+    font-size: 16px;
+    font-weight: 300;
+    color: #707070;
+
+}
+
+.precio{
+    text-align: right;
+}
+
+.precio1{
+    padding-right: 11px;
+    font-family: "Roboto", light;
+    font-size: 16px;
+    font-weight: 300;
+    color: #707070;
+
+}
+
+.precio2{
+    font-family: "Roboto", medium;
+    font-size: 20px;
+    font-weight: 500;
+    color: #28A745;
+}
+
+.formulario{
+    background-color: #28A745;
+    padding-bottom: 39px;
+}
+
+h1{
+    font-family: "Roboto", medium;
+    font-size: 21px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 15px;
+
+    
+}
+
+.form-control{
+    padding-top: 25px; 
+    font-family: "Roboto", light;
+    font-size: 16px;
+    color: #707070;
+    
+}
+.btn {
+    background-color: #F8F9FA;
+    border: solid #DDDDDD;
+    color: #212529;
+    font-family: "Roboto", medium;
+    font-size: 16px;
+    font-weight: 500;
+   
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+
+h2{
+    font-family: "Roboto", light;
+    font-size: 16px;
+    font-weight: 300;
+    color: #707070;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 22px;
+}
+
+footer .imagenfinal{
+    padding-top: 30px;}
+
+.corneta{
+    display: block;
+    position: relative;
+
+}
